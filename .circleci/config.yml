@@ -34,3 +34,4 @@ jobs:
 
       # run tests!
       - run: mvn integration-test
+      - run: bash <(curl -s https://codecov.io/bash) -t 9de71482-2f2f-4375-9b88-13193c91c879
